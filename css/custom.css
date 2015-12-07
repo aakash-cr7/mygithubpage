@@ -1,0 +1,192 @@
+body, html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+/* Nav Stuff */
+nav .brand-logo {
+    font-size: 1.5rem;
+}
+nav ul a, .brand-logo {
+    font-family: 'Open Sans', sans-serif;
+}
+nav {
+    position: absolute;
+    background-color: transparent;
+    z-index: 12;
+    box-shadow: none;
+    padding: 0 40px;
+}
+.top-header {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: visible;
+}
+#layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  background: url(../images/vegas_c.JPG) center center;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+  -webkit-filter: blur(3px);
+}
+#dp {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 3px solid #fff;
+    z-index: 12;
+}
+#me, #social {
+  z-index: 11;
+  color: #fff;
+  font-size: 1.7rem;
+}
+#social {
+    margin-top: 0px;
+}
+#social > p {
+    line-height: initial;
+    color: #ffffff;
+}
+#social-icons {
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 60px;
+    font-size: 40px;
+    justify-content: space-around;
+}
+#social-icons a {
+    color: #fff;
+}
+#myheart {
+    font-size: 24px;
+    color: #e74c3c;
+    width: 30px;
+}
+.widget {
+    z-index: 100;
+}
+.widget-div {
+    position: absolute;
+    z-index: 100;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+}
+.about-sub-heading {
+    text-align: center;
+    text-transform: uppercase;
+}
+.exp-section {
+    background-color: #2C2C2C;
+    color: #fff;
+    padding: 50px 0;
+}
+.parallax-container {
+    height:300px;
+}
+h2.projects-header {
+    margin-bottom: 50px;
+}
+
+/* Helper Clasess */
+.block-fa {
+    display: block;
+    text-align:center;
+    font-size: 3rem;
+}
+.header {
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #B9B9B9;
+}
+#about-me {
+    text-align: center;
+    margin-bottom: 35px;
+}
+.parallax-header {
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    line-height: 4;
+    font-family: 'Open Sans', sans-serif;
+}
+.circular-exp-img {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+.quote-header {
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+.quote-by {
+    font-size:30px;
+    position: absolute;
+    right:60px;
+    font-style: italic;
+}
+.first-letter {
+    color: #9C9C9C;
+}
+.exp-time {
+    text-align: center;
+    color: #7B7B7B;
+}
+.common-para {
+    color: #424242;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.exp-para {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.tagline {
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.offset-top-50 {
+    margin-top: 50px;
+}
+.fa-2x {
+    color: #B9B9B9;
+}
+.scroll-down-div {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 29px;
+    height: 20px;
+    width: 20px;
+    z-index: 12;
+    font-size: 33px;
+    color: #fff;
+}
+.temp-text {
+    display: block;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
