@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+       <title>Result</title>
+     <!--Import Google Icon Font-->
+     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+     <!--Let browser know website is optimized for mobile-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <link type="text/css" rel="stylesheet" href="css/base.css"  media="screen,projection"/>
+   </head>
+
+   <body>
+
+       <nav>
+            <div class="nav-wrapper  blue darken-2">
+              <a href="#" class="brand-logo center"><img alt="Brand" src="images/UCB.jpg"</a>
+              <ul class="right hide-on-med-and-down">
+                  <li><a href="#" class="waves-effect waves-darken btn-flat" style="color:#fff">Sign up</a></li>
+                  <li><a href="#" class="waves-effect waves-light btn  blue darken-1">Login</a></li>
+              </ul>
+            </div>
+        </nav>
+        <nav class="sub-nav">
+             <div class="nav-wrapper blue darken-2">
+                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+               <ul id="nav-mobile" class="left hide-on-med-and-down sub-nav-mobile">
+                   <li><a href="index.html">HOME </a></li>
+                   <li><a href="news.html">NEWS</a></li>
+                   <li><a href="events.html">EVENTS</a></li>
+                   <li class="selected"><a href="results.html">RESULTS</a></li>
+                   <li><a href="examschedule.html">EXAM SCHEDULE</a></li>
+                   <li><a href="discussions.html">DISCUSSIONS</a></li>
+                   <li><a href="recruitmentdrive.html">RECRUITMENT DRIVE</a></li>
+               </ul>
+               <ul class="side-nav" id="mobile-demo">
+                   <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                   <li class="selected"><a href="index.html">HOME </a></li>
+                   <li><a href="news.html">NEWS</a></li>
+                   <li><a href="events.html">EVENTS</a></li>
+                   <li><a href="results.html">RESULTS</a></li>
+                   <li><a href="examschedule.html">EXAM SCHEDULE</a></li>
+                   <li><a href="discussions.html">DISCUSSIONS</a></li>
+                   <li><a href="recruitmentdrive.html">RECRUITMENT DRIVE</a></li>
+                   <li><a href="login.html">LOGIN</a></li>
+                   <li><a href="signup.html">SIGN UP</a></li>
+
+
+               </ul>
+             </div>
+        </nav>
+        <div class="layer"></div>
+        <div class="row">
+
+            <form class="col s12 m8 offset-m2 white hidden-row">
+                <span class="close">X</span>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="input-title" type="text" class="validate">
+                        <label for="input-title">Result details</label>
+                    </div>
+
+                    <div class="input-field col s12">
+                        <input id="input-title1" type="text" class="validate">
+                        <label for="input-title1">Exam details</label>
+                    </div>
+                </div>
+                <div class="row">
+                      <div class="file-field input-field">
+                        <div class="btn">
+                          <span>File</span>
+                          <input type="file">
+                        </div>
+                        <div class="file-path-wrapper">
+                          <input class="file-path validate" type="text">
+                        </div>
+                      </div>
+
+                 </div>
+
+                 <div class="row">
+                     <div class="col s4 offset-s4">
+                         <button class="waves-effect waves-light btn blue darken-1 post-btn">ADD RESULT</button>
+                     </div>
+                 </div>
+            </form>
+        </div>
+
+
+        <div class="row">
+            <h5>RESULTS</h5>
+            <a class="waves-effect waves-grey btn-flat add-result" style="margin-left: 120px;margin-bottom: 10px;">ADD A RESULT</a>
+            <div class="col s12 l10 offset-l1 white z-depth-1">
+                <table class="highlight">
+                   <thead>
+                     <tr>
+                         <th data-field="id" style="color: #757575">Exam</th>
+                         <th data-field="name" style="color: #757575">Details</th>
+                         <th data-field="price" style="color: #757575">Date Announced</th>
+                         <th data-field="price" style="color: #757575">File Format</th>
+                     </tr>
+                   </thead>
+
+                   <tbody>
+                     <tr>
+                       <td>8 Nov 2015(XYZ)</td>
+                       <td><a href="SamplePdf.pdf" target="_blank">Final semester results for 5th semester<a> <span class="label d-label label-success">New</span></td>
+                       <td>20/01/2016</td>
+                       <td>PDF</td>
+                     </tr>
+                     <tr>
+                       <td>9 Nov 2015(XYZ) </td>
+                       <td><a href="SamplePdf.pdf" target="_blank">Final semester results for 6th semester</a> <span class="label d-label label-success">New</span></td>
+                       <td>18/01/2016</td>
+                       <td>PDF</td>
+                     </tr>
+                     <tr>
+                       <td>8 Nov 2015(XYZ)</td>
+                       <td><a href="#" target="_blank">Final semester results for 8th semester</a></td>
+                       <td>15/01/2016</td>
+                       <td>HTML</td>
+                     </tr>
+                     <tr>
+                       <td>11 Sept 2015(ABC-7)</td>
+                       <td><a href="SamplePdf.pdf" target="_blank">Mid semester results for 8th semester</a></td>
+                       <td>15/01/2016</td>
+                       <td>PDF</td>
+                     </tr>
+                     <tr>
+                       <td>8 Sept 2015(ABC-3)</td>
+                       <td><a href="#" target="_blank">Mid semester results for 6th semester</a></td>
+                       <td>15/01/2016</td>
+                       <td>SPREADSHEET</td>
+                     </tr>
+                     <tr>
+                       <td>9 Sept 2015(ABC-1)</td>
+                       <td><a href="SamplePdf.pdf" target="_blank">Final semester results for 5th semester</a></td>
+                       <td>15/01/2016</td>
+                       <td>PDF</td>
+                     </tr>
+                     <tr>
+                       <td>7 Sept 2015(ABC-2)</td>
+                       <td><a href="SamplePdf.pdf" target="_blank">Mid semester results for 9th semester</a></td>
+                       <td>15/01/2016</td>
+                       <td>PDF</td>
+                     </tr>
+                     <tr>
+                       <td>1 Aug 2015(PQR-1)</td>
+                       <td><a href="SamplePdf.pdf" target="_blank">Final semester back results for 3rd semester</a></td>
+                       <td>15/10/2015</td>
+                       <td>PDF</td>
+                     </tr>
+                     <tr>
+                       <td>2 Aug 2015(XYZ)</td>
+                       <td><a href="SamplePdf.pdf" target="_blank">Final semester results for 2nd semester</a></td>
+                       <td>15/10/2015</td>
+                       <td>PDF</td>
+                     </tr>
+                     <tr>
+                       <td>lorem ipsum</td>
+                       <td><a href="#" target="_blank">lorem ipsum</a></td>
+                       <td>15/01/2015</td>
+                       <td>HTML</td>
+                     </tr>
+                     <tr>
+                       <td>lorem ipsum</td>
+                       <td><a href="SamplePdf.pdf" target="_blank">lorem ipsum</a></td>
+                       <td>15/01/2015</td>
+                       <td>PDF</td>
+                     </tr>
+                     <tr>
+                       <td>lorem ipsum</td>
+                       <td><a href="SamplePdf.pdf" target="_blank">lorem ipsum</a></td>
+                       <td>15/01/2015</td>
+                       <td>PDF</td>
+                     </tr>
+                     <tr>
+                       <td>lorem ipsum</td>
+                       <td><a href="#" target="_blank">lorem ipsum</a></td>
+                       <td>15/01/2015</td>
+                       <td>SPREADSHEET</td>
+                     </tr>
+                     <tr>
+                       <td>lorem ipsum</td>
+                       <td><a href="SamplePdf.pdf" target="_blank">lorem ipsum</a></td>
+                       <td>15/01/2015</td>
+                       <td>PDF</td>
+                     </tr>
+                   </tbody>
+               </table>
+            </div>
+        </div>
+    <footer class="row" style="background-color: #E0E0E0; margin-bottom:0;">
+            <div class="col s10 offset-s1" >
+                <div class="row">
+                    <div class="col s2">
+                        lorem ipsum
+                        <ul style="margin-top:-2px;">
+                            <li><a>lorem</a></li>
+                            <li><a>lorem</a></li>
+                            <li><a>lorem</a></li>
+                            <li><a>lorem</a></li>
+                            <li><a>lorem</a></li>
+                        </ul>
+                    </div>
+                    <div class="col s2">
+                        lorem ipsum
+                        <ul style="margin-top:-2px;">
+                            <li><a>lorem</a></li>
+                            <li><a>lorem</a></li>
+                            <li><a>lorem</a></li>
+                            <li><a>lorem</a></li>
+                            <li><a>lorem</a></li>
+                        </ul>
+                    </div>
+                    <div class="col s2">
+                        lorem ipsum
+                        <ul style="margin-top:-2px;">
+                            <li><a>lorem</a></li>
+                            <li><a>lorem</a></li>
+                            <li><a>lorem</a></li>
+                            <li><a>lorem</a></li>
+                            <li><a>lorem</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+     <!--Import jQuery before materialize.js-->
+     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+     <script type="text/javascript" src="js/materialize.min.js"></script>
+     <script>
+     $(document).ready(function() {
+        $('select').material_select();
+        $('.close').on('click', function() {
+            $('.hidden-row').fadeOut();
+            $('.layer').fadeOut();
+        });
+        $('.add-result').on('click', function() {
+            $('.hidden-row').fadeIn();
+            $('.layer').fadeIn();
+        });
+      });
+     </script>
+     <script>
+     $(".button-collapse").sideNav();
+     </script>
+</body>
+</html>

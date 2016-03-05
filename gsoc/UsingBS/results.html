@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Results</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <nav class="navbar navbar-default navbar-static-top custom-nav">
+        <div class="container-fluid">
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse off" id="bs-example-navbar-collapse">
+
+              <a class="navbar-brand" href="#"><img alt="Brand" src="images/UCB.jpg"></a>
+            <ul class="nav navbar-nav navbar-right custom-navbar-nav no-collapse">
+              <li><a href="signup.html">SIGN UP</a></li>
+              <li><a href="login.html"><button type="button" class="btn btn-primary login-btn">LOGIN</button></a></li>
+
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+
+      </nav>
+      <nav class="navbar navbar-default navbar-static-top custom-nav">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">HOME <span class="sr-only">(current)</span></a></li>
+              <li><a href="news.html">NEWS</a></li>
+              <li><a href="events.html">EVENTS</a></li>
+              <li  class="a-active"><a href="results.html">RESULTS</a></li>
+              <li><a href="examschedule.html">EXAM SCHEDULE</a></li>
+              <li><a href="discussions.html">DISUCSSIONS</a></li>
+              <li><a href="recruitmentdrive.html">RECRUITMENT DRIVE</a></li>
+            </ul>
+
+
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+    <div class="layer"></div>
+    <div class="row hidden-row" style="position:relative;">
+        <div class="container">
+            <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-6 white form-container">
+                <span class="close-me">X</span>
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputText">Results details</label>
+                    <input type="text" class="form-control" id="exampleInputText" placeholder="Title">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputText1">Exam details</label>
+                    <input type="text" class="form-control" id="exampleInputText1" placeholder="Title">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputFile">File input</label>
+                    <input type="file" id="exampleInputFile">
+                    <p class="help-block">Upload a file.</p>
+                </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <h5 class="custom-h5">RESULTS</h5>
+
+        <div class="container">
+            <button class="btn btn-primary add-result-btn">ADD RESULT</button>
+            <div class="col-xs-12 white">
+
+                <table class="table table-hover">
+                   <thead>
+                     <tr>
+                         <th data-field="id" style="color: #757575">Exam</th>
+                         <th data-field="name" style="color: #757575">Details</th>
+                         <th data-field="price" style="color: #757575">Date Announced</th>
+                         <th data-field="price" style="color: #757575">File Format</th>
+                     </tr>
+                   </thead>
+
+                   <tbody>
+                     <tr>
+                       <td>8 Nov 2015(XYZ)</td>
+                       <td><a href="samplePDF.pdf" target="_blank">Final semester results for 5th semester</a> <span class="label label-success">New</span></td>
+                       <td>20/01/2016</td>
+                       <td>PDF</td>
+                     </tr>
+                     <tr>
+                       <td>9 Nov 2015(XYZ)</td>
+                       <td><a href="samplePDF.pdf" target="_blank">Final semester results for 6th semester</a> <span class="label label-success">New</span></td>
+                       <td>18/01/2016</td>
+                       <td>PDF</td>
+                     </tr>
+                     <tr>
+                       <td>8 Nov 2015(XYZ)</td>
+                       <td><a href="#" target="_blank">Final semester results for 8th semester</a></td>
+                       <td>15/01/2016</td>
+                       <td>HTML</td>
+                     </tr>
+                     <tr>
+                       <td>11 Sept 2015(ABC-7)</td>
+                       <td><a href="samplePDF.pdf" target="_blank">Mid semester results for 8th semester</a></td>
+                       <td>15/01/2016</td>
+                       <td>PDF</td>
+                     </tr>
+                     <tr>
+                       <td>8 Sept 2015(ABC-3)</td>
+                       <td><a href="#" target="_blank">Mid semester results for 6th semester</a></td>
+                       <td>15/01/2016</td>
+                       <td>Spreadsheet</td>
+                     </tr>
+                     <tr>
+                       <td>9 Sept 2015(ABC-1)</td>
+                       <td><a href="samplePDF.pdf" target="_blank">Final semester results for 5th semester</a></td>
+                       <td>15/01/2016</td>
+                       <td>PDF</td>
+                     </tr>
+                     <tr>
+                       <td>7 Sept 2015(ABC-2)</td>
+                       <td><a href="samplePDF.pdf" target="_blank">Mid semester results for 9th semester</a></td>
+                       <td>15/01/2016</td>
+                       <td>PDF</td>
+                     </tr>
+                     <tr>
+                       <td>1 Aug 2015(PQR-1)</td>
+                       <td><a href="#" target="_blank">Final semester back results for 3rd semester</a></td>
+                       <td>15/10/2015</td>
+                       <td>HTML</td>
+                     </tr>
+                     <tr>
+                       <td>2 Aug 2015(XYZ)</td>
+                       <td><a href="samplePDF.pdf" target="_blank">Final semester results for 2nd semester</a></td>
+                       <td>15/10/2015</td>
+                       <td>PDF</td>
+                     </tr>
+                     <tr>
+                       <td>lorem ipsum</td>
+                       <td><a href="samplePDF.pdf" target="_blank">lorem ipsum</a></td>
+                       <td>15/01/2015</td>
+                       <td>PDF</td>
+                     </tr>
+                     <tr>
+                       <td>lorem ipsum</td>
+                       <td><a href="samplePDF.pdf" target="_blank">lorem ipsum</a></td>
+                       <td>15/01/2015</td>
+                       <td>PDF</td>
+                     </tr>
+                     <tr>
+                       <td>lorem ipsum</td>
+                       <td><a href="samplePDF.pdf" target="_blank">lorem ipsum</a></td>
+                       <td>15/01/2015</td>
+                       <td>PDF</td>
+                     </tr>
+                     <tr>
+                       <td>lorem ipsum</td>
+                       <td><a href="#" target="_blank">lorem ipsum</a></td>
+                       <td>15/01/2015</td>
+                       <td>Spreadsheet</td>
+                     </tr>
+                     <tr>
+                       <td>lorem ipsum</td>
+                       <td><ahref="samplePDF.pdf" target="_blank">lorem ipsum</a></td>
+                       <td>15/01/2015</td>
+                       <td>PDF</td>
+                     </tr>
+                   </tbody>
+               </table>
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="row">
+        <div class="container">
+            <div class="col-xs-3">
+                lorem ipsum
+                <dl style="margin-top:-2px;">
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                </dl>
+            </div>
+            <div class="col-xs-3">
+                lorem ipsum
+                <dl style="margin-top:-2px;">
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                </dl>
+            </div>
+            <div class="col-xs-3">
+                lorem ipsum
+                <dl style="margin-top:-2px;">
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                </dl>
+            </div>
+            <div class="col-xs-3">
+                lorem ipsum
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+    <script>
+        closeAndOpen('add-result-btn');
+    </script>
+</body>
+</html>

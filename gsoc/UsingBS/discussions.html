@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Discussions</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+      <nav class="navbar navbar-default navbar-static-top custom-nav">
+        <div class="container-fluid">
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse off" id="bs-example-navbar-collapse">
+
+              <a class="navbar-brand" href="#"><img alt="Brand" src="images/UCB.jpg"></a>
+            <ul class="nav navbar-nav navbar-right custom-navbar-nav no-collapse">
+              <li><a href="signup.html">SIGN UP</a></li>
+              <li><a href="login.html"><button type="button" class="btn btn-primary login-btn">LOGIN</button></a></li>
+
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+
+      </nav>
+      <nav class="navbar navbar-default navbar-static-top custom-nav">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">HOME <span class="sr-only">(current)</span></a></li>
+              <li><a href="news.html">NEWS</a></li>
+              <li><a href="events.html">EVENTS</a></li>
+              <li><a href="results.html">RESULTS</a></li>
+              <li><a href="examschedule.html">EXAM SCHEDULE</a></li>
+              <li  class="a-active"><a href="discussions.html">DISUCSSIONS</a></li>
+              <li><a href="recruitmentdrive.html">RECRUITMENT DRIVE</a></li>
+            </ul>
+
+
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+    <div class="layer"></div>
+    <div class="row hidden-row" style="position:relative;">
+        <div class="container">
+            <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-6 white form-container">
+                <span class="close-me">X</span>
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputText">Discussion Title</label>
+                    <input type="text" class="form-control" id="exampleInputText" placeholder="Title">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputDesc">Description</label>
+                    <textarea class="form-control" rows="3" id="exampleInputDesc"></textarea>
+                  </div>
+                  <!-- Single button -->
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    SELECT TOPIC <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">ECE</a></li>
+                    <li><a href="#">EEE</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">CS</a></li>
+                    <li><a href="#">IT</a></li>
+                  </ul>
+                </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <h5 class="custom-h5">DISCUSSIONS</h5>
+
+        <div class="container">
+            <button class="btn btn-primary add-discussion-btn">START DISCUSSION</button>
+            <div class="col-xs-12 white discussion-container">
+                <div class="row card">
+                    <div class="col-xs-2 col-md-1 col-lg-1">
+                        <img src="images/prof2.jpg" class="img-responsive img-circle" alt="Responsive image" width="80">
+                    </div>
+                    <div class="col-xs-10 col-md-11 col-lg-11" style="border-bottom: 1px solid #F2F2F2">
+                        <span class="fa fa-star star-discussion"></span>
+                        <h6 class="custom-h6"><a href="sampleDiscussion.html">lorem ipsum</a> <span class="label d-label label-success">CSE</span></h6>
+                        <span class="n-by">Student: Mark</span>
+                        <span class="n-date">11 March 2016</span>
+                        <span class="n-time">4:36 p.m.</span>
+                        <p class="n-para">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            <span class="n-read-more"><a href="sampleDiscussion.html">Read more..</a> </span>
+                            <span class="reply">3<br><span class="r-title">Replies</span></span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row card">
+                    <div class="col-xs-2 col-md-1 col-lg-1">
+                        <img src="images/prof.jpg" class="img-responsive img-circle" alt="Responsive image" >
+                    </div>
+                    <div class="col-xs-10 col-md-11 col-lg-11" style="border-bottom: 1px solid #F2F2F2">
+                        <span class="fa fa-star star-discussion"></span>
+                        <h6 class="custom-h6"><a href="sampleDiscussion.html">lorem ipsum</a> <span class="label d-label label-danger">ECE</span></h6>
+                        <span class="n-by">Staff: Richard Karr</span>
+                        <span class="n-date">2 March 2016</span>
+                        <span class="n-time">11:36 p.m.</span>
+                        <p class="n-para">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            <span class="n-read-more"><a href="sampleDiscussion.html">Read more..</a> </span>
+                            <span class="reply">5<br><span class="r-title">Replies</span></span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row card">
+                    <div class="col-xs-2 col-md-1 col-lg-1">
+                        <img src="images/prof2.jpg" class="img-responsive img-circle" alt="Responsive image" width="80">
+                    </div>
+                    <div class="col-xs-10 col-md-11 col-lg-11" style="border-bottom: 1px solid #F2F2F2">
+                        <span class="fa fa-star star-discussion star-discussion-selected"></span>
+                        <h6 class="custom-h6"><a href="sampleDiscussion.html">lorem ipsum</a></h6>
+                        <span class="n-by">Staff: Richard Karr</span>
+                        <span class="n-date">10 February 2016</span>
+                        <span class="n-time">8:05 p.m.</span>
+                        <p class="n-para">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            <span class="n-read-more"><a href="sampleDiscussion.html">Read more..</a> </span>
+                            <span class="reply">11<br><span class="r-title">Replies</span></span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row card">
+                    <div class="col-xs-2 col-md-1 col-lg-1">
+                        <img src="images/prof.jpg" class="img-responsive img-circle" alt="Responsive image" width="80">
+                    </div>
+                    <div class="col-xs-10 col-md-11 col-lg-11" style="border-bottom: 1px solid #F2F2F2">
+                        <span class="fa fa-star star-discussion"></span>
+                        <h6 class="custom-h6"><a href="sampleDiscussion.html">lorem ipsum</a></h6>
+                        <span class="n-by">Staff: Richard Karr</span>
+                        <span class="n-date">2 March 2016</span>
+                        <span class="n-time">11:36 p.m.</span>
+                        <p class="n-para">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            <span class="n-read-more"><a href="sampleDiscussion.html">Read more..</a> </span>
+                            <span class="reply">30<br><span class="r-title">Replies</span></span>
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="row">
+        <div class="container">
+            <div class="col-xs-3">
+                lorem ipsum
+                <dl style="margin-top:-2px;">
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                </dl>
+            </div>
+            <div class="col-xs-3">
+                lorem ipsum
+                <dl style="margin-top:-2px;">
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                </dl>
+            </div>
+            <div class="col-xs-3">
+                lorem ipsum
+                <dl style="margin-top:-2px;">
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                    <dt><a>lorem</a></dt>
+                </dl>
+            </div>
+            <div class="col-xs-3">
+                lorem ipsum
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+    <script>
+        closeAndOpen('add-discussion-btn');
+    </script>
+</body>
+</html>
