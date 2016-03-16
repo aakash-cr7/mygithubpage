@@ -1,0 +1,143 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: #ebebeb;
+}
+a {
+	color: #fff;
+}
+.main-h {
+    color: #5F5F5F;
+}
+ul {
+	list-style-type: none;
+}
+.sub-heading {
+	color: #757575;
+	font-size: 13px;
+	margin-top: -10px;
+	font-style: italic;
+	font-family: 'Lora', serif;
+}
+.text > h6.t-sub-heading {
+    font-size: 14px;
+    color: rgb(156, 156, 156);
+}
+.common-heading {
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+	height: 250px;
+	width: 250px;
+	border: 5px solid #fff;
+}
+
+
+/*
+ * #gsoc-section
+ *
+ ****/
+ #gsoc-section {
+ 	/*border: 2px solid lime;*/
+ 	background: #ebebeb;
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+}
+.container {
+}
+.gsoc_row {
+  width: 817px;
+  margin: 0 auto;
+  display: flex;
+  /*border: 2px solid lime;*/
+}
+div.container > .gsoc_row {
+  margin: 0px auto;
+}
+.image {
+    height: 50px;
+    width: 50px;
+    background-color: #d4d4d4;
+    border-radius: 50%;
+}
+.image > img {
+  /*width: 200px;*/
+  /*height: 200px;*/
+  border-radius: 50%;
+  box-sizing: border-box;
+  /*border: 5px solid  #F7F7F7;*/
+}
+.image > img {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.image img.round-t-img {
+    width: 50px;
+    height: 50px;
+    margin-top: 0;
+    margin-left: 0;
+}
+.text {
+	width: 364px;
+  	margin: 0 10px;
+}
+.gsoc-para {
+	font-size: 12px;
+    color: #757575;
+	height: 56px;
+}
+.text > h6 {
+	font-size: 17px;
+	font-weight: 300;
+	text-align: right;
+    margin: 0;
+    color: #757575;
+}
+.line {
+	width: 3px;
+	background-color: #d4d4d4;
+	height: 80px;
+    margin-top: -66px;
+}
+
+.line-div {
+	flex-direction: row-reverse;
+  	justify-content: center;
+}
+.even {
+  flex-direction: row-reverse;
+  /*justify-content: center;*/
+}
+.even > .text > h6 {
+	text-align: left
+}
+.hide {
+	opacity: 0;
+}
+@media screen and (max-width: 812px) {
+	.gsoc_row {
+	  flex-direction: row-reverse;
+	  width: 100%;
+	}
+	.text > h6, .text > p {
+		text-align: left;
+	}
+	.line-div{
+		justify-content: flex-end;
+		width: 387px;
+	}
+}
+@media screen and (max-width: 420px) {
+	div.container > .gsoc_row {
+	  margin-left: 32px;
+	  margin-bottom: 10px;
+	}
+	div.gsoc_row.line-div{
+		display: none;
+	}
+}
